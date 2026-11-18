@@ -24,9 +24,9 @@ public:
 int main() {
     int rollno;
     string name;
-    cout<<"Enter name: "<<endl;
+    cout<<"Enter name:"<<endl;
     cin>>name;
-    cout<<"Enter roll number"<<endl;
+    cout<<"Enter roll number:"<<endl;
     cin>>rollno;
     Student s1(rollno,name);
     s1.display();
